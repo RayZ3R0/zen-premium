@@ -1,2 +1,22 @@
 @import url('newtab/new_tab.css');
 
+@-moz-document url-prefix("https://monkeytype.com") {
+    * {
+    --bg-color: rgba(10,10,10,0.5) !important;
+    }
+}
+
+@-moz-document url-prefix("https://bunnysear.ch/") {
+    * {
+    --bg-color: rgba(10,10,10,0.5) !important;
+    --color-base-background: rgba(10,10,10,0.5) !important;
+    --color-base-background-mobile: rgba(10,10,10,0.5) !important;
+    --color-footer-background: rgba(10,10,10,0.5) !important;
+    }
+}
+
+@-moz-document url-prefix("https://chatgpt.com/") {
+    * {
+        --main-surface-primary: rgba(36, 34, 34, 0.24) !important;
+    }
+}
